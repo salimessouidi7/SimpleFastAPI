@@ -1,0 +1,7 @@
+fastapi==0.68.0
+uvicorn==0.15.0
+pydantic==1.9.0
+pymongo==4.0.1
+passlib==1.8.0
+sqlite3==2.6.0
+mysql-connector-python==8.0.28

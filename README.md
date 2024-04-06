@@ -54,6 +54,7 @@ Contributions are welcome! Here's how you can contribute:
 5. **Push to the branch** (`git push origin feature`)
 6. **Create a pull request**
 
-## License
+## Technology Stack
 
-This project is licensed under the **MIT License**.
+- **FastAPI**: FastAPI is used as the web framework for building the API endpoints.
+

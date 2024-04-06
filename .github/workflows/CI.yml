@@ -27,7 +27,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Start FastAPI application
-      run: uvicorn authenticationMongoDB:app --reload &
+      run: uvicorn authenticationMongoDB:app --reload
 
     - name: Wait for application to start
       run: sleep 10  # Adjust sleep duration as needed

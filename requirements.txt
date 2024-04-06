@@ -4,3 +4,4 @@ pydantic
 pymongo
 passlib
 mysql-connector-python==8.0.28
+pytest

@@ -3,5 +3,5 @@ uvicorn
 pydantic
 pymongo
 passlib
-sqlite3
-mysql-connector-python
+sqlite3==2.6.0
+mysql-connector-python==8.0.28

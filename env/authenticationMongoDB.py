@@ -1,9 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 from pymongo import MongoClient
 from bson import ObjectId
 from passlib.context import CryptContext
-from fastapi import Query
 
 # MongoDB connection
 client = MongoClient("mongodb://localhost:27017/")
